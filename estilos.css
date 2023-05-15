@@ -1,0 +1,73 @@
+h1 {
+	font-size: 36px;
+	color: #333;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+/* Estilos para el menú */
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    height: 70px;
+	background-color: #36373f;
+	text-align: right;
+    justify-content: center;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav li a {
+	display: block;
+	padding: 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#comprar {
+    font-weight: bold;
+    color: rgb(15, 150, 15);
+}
+
+nav li a:hover {
+	background-color: #666;
+	color: #fff;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    border: none;
+  }
+  
+  nav ul li:last-child {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  nav ul li:last-child img {
+    display: block;
+  }
+  
+/* Estilos para las secciones */
+section {
+	margin-top: 50px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+section h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+section p {
+	font-size: 16px;
+	line-height: 1.5;
+}
